@@ -13,6 +13,10 @@ public class StringConstructor {
 //		System.out.println(System.identityHashCode(s));
 //		System.out.println(System.identityHashCode(s1));
 		
-	}
+		char cha[] = new char[] {'a','b','c','d','e','f'};//accept character array as parameter & convert into string object
+		String s2 = new String(cha);
+		System.out.println(s2);
+		
 
+}
 }
